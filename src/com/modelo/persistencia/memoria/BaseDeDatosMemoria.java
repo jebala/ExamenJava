@@ -30,7 +30,7 @@ public void modificarUnColega(Colega colega){
 }
 
 
-public Colega consultarUnLibroPorId(int id){
+public Colega consultarUnColegaPorId(int id){
 	
 	return tablaColega.get(id);
 }	

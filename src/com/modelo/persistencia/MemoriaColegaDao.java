@@ -32,7 +32,7 @@ public class MemoriaColegaDao implements ColegaDao {
 
 	@Override
 	public Colega consultaPorId(int id) {
-		return bd.consultarUnLibroPorId(id);
+		return bd.consultarUnColegaPorId(id);
 	}
 
 	@Override
